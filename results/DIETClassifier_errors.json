@@ -1,19 +1,38 @@
 [
   {
-    "text": "damaged hull",
-    "entities": [
+    "text": "[hull] is working fine",
+    "entities": [],
+    "predicted_entities": [
       {
-        "start": 8,
-        "end": 12,
+        "entity": "boat_part",
+        "start": 1,
+        "end": 5,
         "value": "hull",
-        "entity": "boat part"
+        "extractor": "DIETClassifier"
       }
-    ],
+    ]
+  },
+  {
+    "text": "hey my [hull] is good now",
+    "entities": [],
     "predicted_entities": [
       {
         "entity": "boat_part",
         "start": 8,
         "end": 12,
+        "value": "hull",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "water entering through hull fittings in my core pls help",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "boat_part",
+        "start": 23,
+        "end": 27,
         "value": "hull",
         "extractor": "DIETClassifier"
       }

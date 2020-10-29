@@ -160,3 +160,5 @@
 - I want to get car for delivery
 - from where can i buy new mobile phone
 - can you suggest me some grocery shopping places
+- can you play some music
+- play some music for me
