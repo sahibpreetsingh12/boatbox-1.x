@@ -22,6 +22,7 @@
 - major issues with fibreglass of [hull](boat_part)
 - [hull](boat_part) repair can you help me
 - can you suggest some tips to repair my [hull](boat_part)
+- i have a problem regarding the [hull](boat_part)
 
 ## intent:greet
 - hey

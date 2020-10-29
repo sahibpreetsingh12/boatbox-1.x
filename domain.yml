@@ -44,7 +44,7 @@ responses:
   utter_goodbye:
   - text: Bye tc :)
   - text: Bbye it was nice talking to you.
-  - text: see you soon
+  - text: see you soon.
   utter_greet:
   - text: Hi how can i help you with your boat
   - text: I am Boatbox I can help you for various tasks like boat repair to installations
