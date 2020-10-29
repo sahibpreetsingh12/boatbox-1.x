@@ -1,0 +1,22 @@
+[
+  {
+    "text": "damaged hull",
+    "entities": [
+      {
+        "start": 8,
+        "end": 12,
+        "value": "hull",
+        "entity": "boat part"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "boat_part",
+        "start": 8,
+        "end": 12,
+        "value": "hull",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]
