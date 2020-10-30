@@ -35,7 +35,7 @@
 * greet
     - utter_greet
 * repair_hull
-    - utter_repair_hull
+    - action_repair_hull
     - utter_did_that_help
 * no_repair_required
     - utter_no_repair_required
@@ -94,7 +94,7 @@
 * greet
     - utter_greet
 * repair_hull{"boat_part": "hull"}
-    - utter_repair_hull
+    - action_repair_hull
     - utter_did_that_help
 * no_repair_required
     - utter_no_repair_required
