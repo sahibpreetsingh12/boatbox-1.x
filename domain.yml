@@ -10,12 +10,14 @@ actions:
 - utter_repair_hull
 - utter_stress_info
 - utter_thankyou
+
 entities:
 - boat_manufacturer
 - boat_part
 - exercise
 - sleep
 - stress
+
 intents:
 - cleaning_boat
 - no_repair_required
@@ -29,6 +31,7 @@ intents:
 - mood_unhappy
 - repair_core
 - out_of_scope
+
 responses:
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg
@@ -67,7 +70,7 @@ responses:
       core, and insert a replacement core that re-establishes the structural integrity
       of the boat.
   utter_repair_hull:
-  - text: There are two scenarios where a boat hull can be damaged – one is when the
+  - text: There are two scenarios where a  {boat_part} can be damaged – one is when the
       hull is damaged above the waterline, the second when it is damaged below the
       waterline.For first scenario take it out and dry it thoroughly.For hull repair,
       a basic fibreglass repair kit is used, using which the damaged section is removed
@@ -82,9 +85,12 @@ responses:
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 60
+
+
 slots:
-  confirm_exercise:
+  boat_part:
     type: unfeaturized
+    initial_value: None
   diet:
     type: unfeaturized
   exercise:
