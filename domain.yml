@@ -10,8 +10,11 @@ actions:
 - utter_repair_hull
 - utter_stress_info
 - utter_thankyou
-- action_repair_hull
+- action_repair
 
+# Implement a Genetic Algorithm for
+# learning attribute weights for the Nearest Neighbour Algorithm. 
+#Implement at least one mechanism for maintaining Diversity within the Population
 entities:
 - boat_manufacturer
 - boat_part

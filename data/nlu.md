@@ -13,9 +13,9 @@
 - yeah it's good to go
 
 ## intent:repair_hull
-- I have issues with my [hull](boat_part)
+- I have issues with my [HULL](boat_part)
 - my [hull](boat_part) is damaged.
-- [hull](boat_part) dmamaged completely.
+- [HULL](boat_part) dmamaged completely.
 - [hull](boat_part) destroyed completely.
 - I have minor issues with my [hull](boat_part)
 - cracks in my [hull](boat_part)
@@ -23,6 +23,7 @@
 - [hull](boat_part) repair can you help me
 - can you suggest some tips to repair my [hull](boat_part)
 - i have a problem regarding the [hull](boat_part)
+- [hull](boat_part) is not good
 
 ## intent:greet
 - hey
@@ -142,12 +143,13 @@
 ## intent:repair_core
 
 - I have issues with my [core](boat_part) can u help
-- my [core](boat_part) is damaged need some tips.
+- my [CORE](boat_part) is damaged need some tips.
 - [core](boat_part) damaged completely.
-- I have minor issues with my [core](boat_part)
+- I have minor issues with my [CORE](boat_part)
 - water entering through [hull](boat_part) fittings in my [core](boat_part) pls help
 - major issues with deck fittings and [core](boat_part) is getting damaged
 - [core](boat_part) repair can you help me
+- [core](boat_part) is not good
 
 ## intent:out_of_scope
 
