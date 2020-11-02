@@ -24,6 +24,10 @@ class ActionRepairHull(Action):
         
         part= tracker.get_slot("boat_part")
 
-        dispatcher.utter_message(text="We can repair your %s pls tell me something more about it"%(part))
+        if part=='hull':
+
+            dispatcher.utter_message(text="We can repair your %s pls tell me something more about it"%(part))
+        elif part=='core':
+            dispatcher.utter_message(text="Core damage needs a professional help")
 
         return []

@@ -4,10 +4,10 @@
 - each part of my boat is working fine
 - yeah it's good now
 - My [hull](boat_part) is good now
-- [hull] is working fine
+- [hull](boat_part) is working fine
 - I have no issue with core
 - core is working compltely fine
-- hey my [hull] is good now
+- hey my [hull](boat_part) is good now
 - perfectly fine working
 - Hmmm no issues with any boat part
 - yeah it's good to go
@@ -15,7 +15,7 @@
 ## intent:repair_hull
 - I have issues with my [hull](boat_part)
 - my [hull](boat_part) is damaged.
-- [hull](boat_part) damaged completely.
+- [hull](boat_part) dmamaged completely.
 - [hull](boat_part) destroyed completely.
 - I have minor issues with my [hull](boat_part)
 - cracks in my [hull](boat_part)
@@ -41,6 +41,7 @@
 - heya
 - how's you doing boatbox
 - how are you boatbox
+- can you help me
 
 ## intent: goodbye
 
@@ -140,13 +141,13 @@
 
 ## intent:repair_core
 
-- I have issues with my core can u help
-- my core is damaged need some tips.
-- core damaged completely.
-- I have minor issues with my core
-- water entering through hull fittings in my core pls help
-- major issues with deck fittings and core is getting damaged
-- core repair can you help me
+- I have issues with my [core](boat_part) can u help
+- my [core](boat_part) is damaged need some tips.
+- [core](boat_part) damaged completely.
+- I have minor issues with my [core](boat_part)
+- water entering through [hull](boat_part) fittings in my [core](boat_part) pls help
+- major issues with deck fittings and [core](boat_part) is getting damaged
+- [core](boat_part) repair can you help me
 
 ## intent:out_of_scope
 
