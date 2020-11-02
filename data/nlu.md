@@ -6,12 +6,12 @@
 - My [hull](boat_part) is good now
 - [hull](boat_part) is working fine
 - I have no issue with core
-- core is working compltely fine
+- [core](boat_part) is working compltely fine
 - hey my [hull](boat_part) is good now
 - perfectly fine working
 - Hmmm no issues with any boat part
 - yeah it's good to go
-
+- [core](boat_part) is good now
 ## intent:repair_hull
 - I have issues with my [HULL](boat_part)
 - my [hull](boat_part) is damaged.
